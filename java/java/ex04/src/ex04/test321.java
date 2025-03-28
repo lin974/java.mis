@@ -3,7 +3,7 @@ package ex04;
 import java.util.Scanner;
 public class test321 {
 	public static void main(String[] args) {
-		Scanner scn = new Scanner(System.in);
+		
 		int total = 0;
 		int num =  scn.nextInt();
 		for(int i = 0;i<=num;i++) {
