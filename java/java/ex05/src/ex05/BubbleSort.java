@@ -5,7 +5,7 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		int[] aNum = { 32, 24, 11, 48, 15 };
 		System.out.print(" 排  序  前：\t");
-		for (int a = 0; a < aNum.length; a++)
+		for (int a = 0; a < aNum.length-1; a++)
 			System.out.print(" " + aNum[a] + "\t");
 		System.out.println();
 		int n = aNum.length;
