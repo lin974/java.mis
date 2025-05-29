@@ -1,3 +1,4 @@
+package hw;
 public class Wizard {
     private String name;         // 魔法師名稱
     private int level;           // 魔法師等級
