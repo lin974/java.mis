@@ -25,6 +25,8 @@ public class WizardGuild {
          for (Wizard w : wizards) {
             if (w.getName().equals(name)) {
                 wizards.remove(w);
+          
+                break;  
             }
         }
 

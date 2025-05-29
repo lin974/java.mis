@@ -3,6 +3,11 @@ public class Wizard {
     private String name;         // 魔法師名稱
     private int level;           // 魔法師等級
     private String specialty;
+     public Wizard(String name, int level, String specialty) {
+        this.name      = name;
+        this.level     = level;
+        this.specialty = specialty;
+    }
     void setName(String name){
         this.name = name;
     }
